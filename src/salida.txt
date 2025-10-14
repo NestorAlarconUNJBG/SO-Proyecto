@@ -1,0 +1,5 @@
+analizador.cpp
+ejecutor.cpp
+main.cpp
+minishell
+salida.txt
