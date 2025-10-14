@@ -35,17 +35,22 @@ Las caracteristicas base que debe cumplir la miniSHell son las siguientes:
 
 ## Casos de prueba y ejemplos de uso
 Para los casos prueba se consideraron los siguientes:
-- 'ls', que muestra el listado de los archivos en directorio actual.
-![ls](docs/images/ls.png)
+- 'ls', que muestra el listado de los archivos en directorio actual. 
+
+  ![ls](docs/images/ls.png)
 
 - 'ls > salida.txt', debe redirigir la salida al archivo salida.txt sin mostrar en pantalla.
-![ls > salida.txt](docs/images/redirigiendo.png)
+
+  ![ls > salida.txt](docs/images/redirigiendo.png)
 
 - '/bin/ls', debe ejecutar el comando usando ruta absoluta.
-![/bin/ls](docs/images/absoluto.png)
+
+  ![/bin/ls](docs/images/absoluto.png)
 
 - Comando inexistente muestra mensaje de error: "Error al ejecutar el comando: No such file or directory".
-![comando_invalido](docs/images/error.png)
+
+  ![comando_invalido](docs/images/error.png)
 
 - Comando salir termina la shell.
-![salir](docs/images/salir.png)
+        
+  ![salir](docs/images/salir.png)
